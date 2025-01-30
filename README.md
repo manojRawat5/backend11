@@ -18,34 +18,17 @@ Database: (e.g., MongoDB,)
 Installation
 Prerequisites
 Make sure you have the following installed:
+Node.js (for backend)
 
-Node.js (for backend, if applicable)
-NPM or Yarn
-Database (e.g., MongoDB )
+Database (MongoDB )
 Clone the Repository
-bash
-Copy
 git clone 
 
 Copy
-npm install
-For the frontend (if separate):
+ run npm install command
 
-bash
-Copy
-cd client
-npm install
-Running the Application
-Backend
-To run the backend server:
+to run the applicating use **npm run start** commpand
 
-bash
-Copy
-npm start
-Frontend
-To run the frontend (if separate):
-
-bash
 Copy
 cd client
 npm start
@@ -54,13 +37,13 @@ Once the app is running, you can access it in your browser at:
 
 Copy
 for fetching data 
-call this localhost:5050/todos/
+call this localhost:5050/todos/ to get all the data
 
 for updating provide id
-localhost:5050/todos/update'679b1209d2509f4159aa404d'
+localhost:5050/todos/update'679b1209d2509f4159aa404d' run this command
 
 for deleting provide id
-localhost:5050/todos/delete'679b1209d2509f4159aa404d'
+localhost:5050/todos/delete'679b1209d2509f4159aa404d' run this command
 
 for creating 
-localhost:5050/todos/add/
+localhost:5050/todos/add/ run this command and prive all the fields in the body
