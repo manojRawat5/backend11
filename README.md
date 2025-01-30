@@ -4,6 +4,8 @@
 To-Do App
 A simple To-Do application that allows users to create, read, update, and delete tasks. This app helps users organize their tasks in a simple and efficient way.
 
+for staring applicating use npm run start
+
 Features
 Create: Add new tasks to your to-do list.
 Read: View all tasks in the to-do list.
